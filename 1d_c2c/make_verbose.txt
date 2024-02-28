@@ -1,0 +1,23 @@
+/usr/bin/cmake -S/home/gvasil/new_paper/CUDALibrarySamples/cuFFT/1d_c2c -B/home/gvasil/new_paper/CUDALibrarySamples/cuFFT/1d_c2c/build --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/gvasil/new_paper/CUDALibrarySamples/cuFFT/1d_c2c/build/CMakeFiles /home/gvasil/new_paper/CUDALibrarySamples/cuFFT/1d_c2c/build//CMakeFiles/progress.marks
+make  -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/gvasil/new_paper/CUDALibrarySamples/cuFFT/1d_c2c/build'
+make  -f CMakeFiles/1d_c2c_example.dir/build.make CMakeFiles/1d_c2c_example.dir/depend
+make[2]: Entering directory '/home/gvasil/new_paper/CUDALibrarySamples/cuFFT/1d_c2c/build'
+cd /home/gvasil/new_paper/CUDALibrarySamples/cuFFT/1d_c2c/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/gvasil/new_paper/CUDALibrarySamples/cuFFT/1d_c2c /home/gvasil/new_paper/CUDALibrarySamples/cuFFT/1d_c2c /home/gvasil/new_paper/CUDALibrarySamples/cuFFT/1d_c2c/build /home/gvasil/new_paper/CUDALibrarySamples/cuFFT/1d_c2c/build /home/gvasil/new_paper/CUDALibrarySamples/cuFFT/1d_c2c/build/CMakeFiles/1d_c2c_example.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/gvasil/new_paper/CUDALibrarySamples/cuFFT/1d_c2c/build'
+make  -f CMakeFiles/1d_c2c_example.dir/build.make CMakeFiles/1d_c2c_example.dir/build
+make[2]: Entering directory '/home/gvasil/new_paper/CUDALibrarySamples/cuFFT/1d_c2c/build'
+[ 33%] Building CXX object CMakeFiles/1d_c2c_example.dir/1d_c2c_example.cpp.o
+/usr/bin/c++  -I/opt/cuda/targets/x86_64-linux/include -I/home/gvasil/new_paper/CUDALibrarySamples/cuFFT/1d_c2c/../utils -isystem /opt/cuda/include -O3 -DNDEBUG -std=gnu++11 -MD -MT CMakeFiles/1d_c2c_example.dir/1d_c2c_example.cpp.o -MF CMakeFiles/1d_c2c_example.dir/1d_c2c_example.cpp.o.d -o CMakeFiles/1d_c2c_example.dir/1d_c2c_example.cpp.o -c /home/gvasil/new_paper/CUDALibrarySamples/cuFFT/1d_c2c/1d_c2c_example.cpp
+
+[ 66%] Linking CUDA device code CMakeFiles/1d_c2c_example.dir/cmake_device_link.o
+/usr/bin/cmake -E cmake_link_script CMakeFiles/1d_c2c_example.dir/dlink.txt --verbose=1
+/opt/cuda/bin/nvcc -forward-unknown-to-host-compiler -O3 -DNDEBUG --generate-code=arch=compute_80,code=[compute_80,sm_80] -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink --options-file CMakeFiles/1d_c2c_example.dir/deviceObjects1 -o CMakeFiles/1d_c2c_example.dir/cmake_device_link.o --options-file CMakeFiles/1d_c2c_example.dir/deviceLinkLibs.rsp
+[100%] Linking CXX executable bin/1d_c2c_example
+/usr/bin/cmake -E cmake_link_script CMakeFiles/1d_c2c_example.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/1d_c2c_example.dir/1d_c2c_example.cpp.o CMakeFiles/1d_c2c_example.dir/cmake_device_link.o -o bin/1d_c2c_example  -Wl,-rpath,/opt/cuda/lib64 /opt/cuda/lib64/libcufft_static.a /opt/cuda/lib64/libcudart.so /opt/cuda/lib64/libculibos.a 
+make[2]: Leaving directory '/home/gvasil/new_paper/CUDALibrarySamples/cuFFT/1d_c2c/build'
+[100%] Built target 1d_c2c_example
+make[1]: Leaving directory '/home/gvasil/new_paper/CUDALibrarySamples/cuFFT/1d_c2c/build'
+/usr/bin/cmake -E cmake_progress_start /home/gvasil/new_paper/CUDALibrarySamples/cuFFT/1d_c2c/build/CMakeFiles 0
