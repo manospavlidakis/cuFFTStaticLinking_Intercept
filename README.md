@@ -51,6 +51,12 @@ This folder demonstrates cuFFT APIs usage.
 
     The sample compute MultiGPU 3D FFT using R2C and C2R. See example for detailed description.
 
+## Interposer
+
+* [Interposer](Interposer/)
+
+    A tool to intercept CUDA hidden calls performed from cuFFT high-level calls
+ 
 
 
 
