@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+
+.version 7.0
+.target sm_80
+.address_size 64
+
+.weak .global .align 8 .b8 _ZTVN9Operation7FunctorE[40];
+.weak .global .align 8 .b8 _ZTVN9Operation12CallbackInfoE[40];
+.weak .global .align 8 .b8 _ZTVN8Visitors7VisitorE[184];
+.weak .global .align 8 .b8 _ZTVN8Visitors7RuntimeE[192];
+.weak .global .align 8 .b8 _ZTVN8Visitors5SetupE[192];
+.weak .global .align 8 .b8 _ZTVN8Visitors8Callback3SetE[192];
+
+

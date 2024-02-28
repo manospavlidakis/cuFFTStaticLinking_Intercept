@@ -1,0 +1,16 @@
+
+
+
+
+
+
+
+
+.version 7.0
+.target sm_80
+.address_size 64
+
+.global .align 4 .u32 _ZZN56_INTERNAL_34_spRadix0032A_cb_compute_80_cpp1_ii_71e3bf1118cooperative_groups4__v17details17_binary_partitionINS1_15coalesced_groupEEES4_RKT_bE8fullMask = -1;
+.global .texref __nv_static_47__34_spRadix0032A_cb_compute_80_cpp1_ii_71e3bf11__ZN56_INTERNAL_34_spRadix0032A_cb_compute_80_cpp1_ii_71e3bf1112spRadix0032A13TextureHandle5tex64E;
+
+
